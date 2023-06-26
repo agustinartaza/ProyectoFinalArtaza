@@ -177,23 +177,24 @@
 }
 /*NOVEDADES*/
 #Nov {
-  background-image: url(https://i.redd.it/qkiu86oypn571.png);
-  background-size: cover;
+  background-image: url(https://i.etsystatic.com/36158709/r/il/7d0cfb/4014030801/il_570xN.4014030801_9dn3.jpg);
   background-repeat: repeat;
 }
 
 .bannernov {
-  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/2063252237993793670/4CF433DD2EC555C815174389BCBF30E750F80CE7/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-  background-repeat: repeat;
+  font-family: "Caprasimo", cursive;
+  background-image: url(https://rapradar.com/wp-content/uploads/2023/03/dogfood.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding-top: 10%;
   padding-bottom: 10%;
-}
-.bannernov h1 {
-  background-color: black;
-}
-.bannernov .novtext {
-  background-color: rgb(63, 63, 63);
+  /* h1{
+       background-color: black;
+   }
+   .novtext{
+       background-color:$gris-bg-fonts;
+   }*/
 }
 
 .form1 {
@@ -202,7 +203,7 @@
   font-size: 20px;
   padding-top: 8%;
   padding-bottom: 23%;
-  font-family: "Raleway";
+  font-family: "Caprasimo";
 }
 
 .txtcarrousel1 {
