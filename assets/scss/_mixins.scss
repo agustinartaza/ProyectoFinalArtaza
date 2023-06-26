@@ -1,0 +1,14 @@
+/*Plantilla para los forms de contacto y novedades*/
+@mixin formplantilla($color,$centrado,$tamanio,$paddingarriba,$paddingabajo,$fuente){
+    color: $color;
+  text-align: $centrado;
+  font-size: $tamanio;
+  padding-top: $paddingarriba;
+  padding-bottom: $paddingabajo;
+  font-family: $fuente;
+}
+/*Plantilla para las secciones de la biografia*/
+@mixin sectionplantilla($img,$size){
+  background-image: url($img);
+  background-size: cover;
+}
