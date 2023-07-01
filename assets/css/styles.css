@@ -91,82 +91,96 @@
 }
 
 /*BIOGRAFIA*/
+@font-face {
+  font-family: "JackInput";
+  src: url(../fonts/JAi_____.TTF);
+}
+@font-face {
+  font-family: "Futura";
+  src: url(../fonts/futura-extrabold.ttf);
+}
 .secciones {
   padding-top: 10%;
   padding-bottom: 10%;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Futura", cursive;
 }
 
 .section1 {
-  background-image: url("https://ca-times.brightspotcdn.com/dims4/default/594e751/2147483647/strip/true/crop/1688x1125+156+0/resize/1440x960!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F86%2Fdb%2F3ce0e6513bbf3e8eedccc148f275%2Fla-fi-hp-neighborhood-spotlight-ladera-heights-002");
+  background-image: url("../imagenes/imgbio1.JPG");
   background-size: cover;
 }
 .section1 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section1 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
 .section2 {
-  background-image: url("https://m.media-amazon.com/images/M/MV5BMTg0NjkxMTg2N15BMl5BanBnXkFtZTgwMjA0NTM5MTE@._V1_.jpg");
+  background-image: url("../imagenes/imgbio2.JPG");
   background-size: cover;
 }
 .section2 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section2 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
 .section3 {
-  background-image: url("https://www.nme.com/wp-content/uploads/2017/08/GettyImages-824669506_TYLER_CREATOR_BOYFRIEND_1000.jpg");
+  background-image: url("../imagenes/imgbio3.JPG");
   background-size: cover;
 }
 .section3 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section3 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
 .section4 {
-  background-image: url("https://media.gq.com.mx/photos/5d5ecfae3d0c810008e6f80b/16:9/w_2560%2Cc_limit/LACOSTE%2520TYLER%2520CREATOR%2520GQ%252000.jpg");
+  background-image: url("../imagenes/imgbio4.JPG");
   background-size: cover;
 }
 .section4 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section4 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
 .section5 {
-  background-image: url("https://wwd.com/wp-content/uploads/2021/12/4H0A7034.jpg");
+  background-image: url("../imagenes/imgbio5.JPG");
   background-size: cover;
   background-position: center;
 }
 .section5 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section5 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
 .section6 {
-  background-image: url("https://www.billboard.com/wp-content/uploads/media/04-Tyler-the-Creator-msg-sept-12-2019-billboard-1548.jpg");
+  background-image: url("../imagenes/imgbio6.JPG");
   background-size: cover;
 }
 .section6 p {
   color: white;
-  background-color: rgb(63, 63, 63);
+  font-family: "Futura", cursive;
 }
 .section6 h1 {
+  font-family: "JackInput", cursive;
   color: white;
 }
 
@@ -177,24 +191,19 @@
 }
 /*NOVEDADES*/
 #Nov {
-  background-image: url(https://i.etsystatic.com/36158709/r/il/7d0cfb/4014030801/il_570xN.4014030801_9dn3.jpg);
+  background-image: url(https://i.redd.it/qkiu86oypn571.png);
+  background-size: cover;
   background-repeat: repeat;
 }
 
 .bannernov {
-  font-family: "Caprasimo", cursive;
+  font-family: "JackInput", cursive;
   background-image: url(https://rapradar.com/wp-content/uploads/2023/03/dogfood.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   padding-top: 10%;
   padding-bottom: 10%;
-  /* h1{
-       background-color: black;
-   }
-   .novtext{
-       background-color:$gris-bg-fonts;
-   }*/
 }
 
 .form1 {
@@ -203,7 +212,7 @@
   font-size: 20px;
   padding-top: 8%;
   padding-bottom: 23%;
-  font-family: "Caprasimo";
+  font-family: "Raleway";
 }
 
 .txtcarrousel1 {
@@ -220,6 +229,9 @@
     font-size: small;
   }
   .novtext {
+    font-size: smaller;
+  }
+  .carousel-text {
     font-size: smaller;
   }
 }
@@ -248,7 +260,7 @@
   margin-top: 10px;
 }
 
-/*NOVEDADES MEDIA QUERIES*/
+/*CONTACTO MEDIA QUERIES*/
 @media (max-width: 425px) {
   .form2 {
     color: black;

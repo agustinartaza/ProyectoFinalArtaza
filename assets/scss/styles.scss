@@ -91,54 +91,67 @@
   }
 
    /*BIOGRAFIA*/
-  
+   @font-face {
+    font-family:"JackInput" ;
+    src: url(../fonts/JAi_____.TTF);
+  }
+  @font-face {
+    font-family:"Futura" ;
+    src: url(../fonts/futura-extrabold.ttf);
+  }
   .secciones{
     padding-top: 10%;
     padding-bottom: 10%;
-    font-family: $roboto-font;
+    font-family: $futura-font;
   }
   .section1{
-    @include sectionplantilla("https://ca-times.brightspotcdn.com/dims4/default/594e751/2147483647/strip/true/crop/1688x1125+156+0/resize/1440x960!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F86%2Fdb%2F3ce0e6513bbf3e8eedccc148f275%2Fla-fi-hp-neighborhood-spotlight-ladera-heights-002"
+    @include sectionplantilla("../imagenes/imgbio1.JPG"
     ,cover);
       p {color: white;
-      background-color:$gris-bg-fonts;}
-      h1{color: white}
+      font-family:$futura-font}
+      h1{font-family:$jack-font;
+        color: white}
   }
   .section2{
-    @include sectionplantilla ("https://m.media-amazon.com/images/M/MV5BMTg0NjkxMTg2N15BMl5BanBnXkFtZTgwMjA0NTM5MTE@._V1_.jpg"
+    @include sectionplantilla ("../imagenes/imgbio2.JPG"
     ,cover);
       p {color: white;
-      background-color: $gris-bg-fonts;}
-      h1{color: white}
+        font-family:$futura-font}
+      h1{font-family:$jack-font;
+        color: white}
   }
   .section3{
-    @include sectionplantilla ("https://www.nme.com/wp-content/uploads/2017/08/GettyImages-824669506_TYLER_CREATOR_BOYFRIEND_1000.jpg"
+    @include sectionplantilla ("../imagenes/imgbio3.JPG"
     ,cover);
-      p {color: white;
-        background-color: $gris-bg-fonts;}
-        h1{color: white}
+    p {color: white;
+      font-family:$futura-font}
+    h1{font-family:$jack-font;
+      color: white}
   }
   .section4{
-    @include sectionplantilla ("https://media.gq.com.mx/photos/5d5ecfae3d0c810008e6f80b/16:9/w_2560%2Cc_limit/LACOSTE%2520TYLER%2520CREATOR%2520GQ%252000.jpg"
+    @include sectionplantilla ("../imagenes/imgbio4.JPG"
     ,cover);
-      p {color: white;
-        background-color: $gris-bg-fonts;}
-        h1{color: white}
+    p {color: white;
+      font-family:$futura-font}
+    h1{font-family:$jack-font;
+      color: white}
   }
   .section5{
-    @include sectionplantilla ("https://wwd.com/wp-content/uploads/2021/12/4H0A7034.jpg"
+    @include sectionplantilla ("../imagenes/imgbio5.JPG"
     ,cover);
     background-position: center;
-      p {color: white;
-        background-color: $gris-bg-fonts;}
-        h1{color: white}
+    p {color: white;
+      font-family:$futura-font}
+    h1{font-family:$jack-font;
+      color: white}
   }
   .section6{
-    @include sectionplantilla ("https://www.billboard.com/wp-content/uploads/media/04-Tyler-the-Creator-msg-sept-12-2019-billboard-1548.jpg"
+    @include sectionplantilla ("../imagenes/imgbio6.JPG"
     ,cover);
-      p {color: white;
-        background-color: $gris-bg-fonts;}
-        h1{color: white}
+    p {color: white;
+      font-family:$futura-font}
+    h1{font-family:$jack-font;
+      color: white}
   }
   @media(max-width: 425px){
     .secciones{
@@ -147,26 +160,21 @@
   }
    /*NOVEDADES*/
    #Nov{
-    background-image: url(https://i.etsystatic.com/36158709/r/il/7d0cfb/4014030801/il_570xN.4014030801_9dn3.jpg);
+    background-image: url(https://i.redd.it/qkiu86oypn571.png);
+    background-size: cover;
     background-repeat: repeat;
   }
   .bannernov{
-    font-family: 'Caprasimo', cursive;
+    font-family:$jack-font;
     background-image: url(https://rapradar.com/wp-content/uploads/2023/03/dogfood.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     padding-top: 10%;
     padding-bottom: 10%;
-       /* h1{
-            background-color: black;
-        }
-        .novtext{
-            background-color:$gris-bg-fonts;
-        }*/
   }
   .form1{
-    @include formplantilla (black,center,20px,8%,23%,'Caprasimo');
+    @include formplantilla (black,center,20px,8%,23%,'Raleway');
    }
   
    .txtcarrousel1{
@@ -184,6 +192,7 @@
     .novtext{
       font-size: smaller;
     }
+    .carousel-text{font-size: smaller;}
   }
 
 
@@ -205,9 +214,10 @@
     margin-top: 10px;
  }
  
- /*NOVEDADES MEDIA QUERIES*/
+ /*CONTACTO MEDIA QUERIES*/
  @media(max-width: 425px){
   .form2{ @include formplantilla (black,center,10px,35%,97%,'Raleway');}
+  
  }
  
  @media(min-width: 426px) and (max-width:768px){
